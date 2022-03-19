@@ -1,0 +1,10 @@
+{
+  "name": "moderation",
+  "version": "1.0.0",
+  "description": "Moderation template for DBME",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "eris": "^0.13.3"
+  }
+}

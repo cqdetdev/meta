@@ -1,0 +1,9 @@
+import { Client } from 'eris';
+
+const main = async () => {
+	const client = new Client({ token }, { autoreconnect: true });
+	await client.connect();
+	client.once('ready', () => {
+		console.log('READY');
+	});
+};
